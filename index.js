@@ -13,7 +13,7 @@ class StdDev {
 	}
 
 	performCalculation(numbers, length) {
-		return Math.sqrt(_.reduce(numbers, (sum, n) => {
+		return Math.sqrt(_(numbers).filter().reduce((sum, n) => {
 			const difference = n - _.mean(numbers);
 			return sum + difference * difference;
 		}, 0) / length);
@@ -30,7 +30,7 @@ class StdDev {
 	}
 
 	format(value) {
-		return parseFloat(value).toFixed(2);
+		return Number(parseFloat(value).toFixed(2));
 	}
 }
 
