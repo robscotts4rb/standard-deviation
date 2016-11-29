@@ -1,6 +1,6 @@
 {
   "name": "node-stdev",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small utility for calculating standard deviation",
   "main": "index.js",
   "scripts": {
