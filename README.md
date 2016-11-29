@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/robscotts4rb/standard-deviation.svg?branch=master)](https://travis-ci.org/robscotts4rb/standard-deviation)
+
 # Standard Deviation calculation
 
 Usage
